@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "jb-market"
+version = "0.1.0"
+description = ""
+authors = ["Zhejiayu Ma"]
+readme = "README.md"
+packages = [{include = "jb_market"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.0.1"
+httpx = "^0.24.1"
+sqlalchemy = "^2.0.15"
+alembic = "^1.11.1"
+selenium = "^4.9.1"
+linkedin-scraper = "^2.11.1"
+scrapy = "^2.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
